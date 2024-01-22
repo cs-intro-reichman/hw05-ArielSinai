@@ -8,9 +8,9 @@
 public class GameOfLife {
 
 	public static void main(String[] args) {
-		// String fileName = args[0];
+		String fileName = args[0];
 		
-		String fileName = "square.dat";
+		// String fileName = "square.dat";
 
 		test1(fileName);
 		// test2(fileName);
@@ -143,7 +143,8 @@ public class GameOfLife {
 		for(int i=1; i<arr.length-1; i++) {
 			for(int j=1; j<arr[i].length-1; j++) {
 				// System.out.print(" " + arr[i][j]);
-				System.out.printf(" %s", arr[i][j]);
+				// System.out.printf(" %s ", arr[i][j]);
+				System.out.printf("%s ", arr[i][j]);
 			}
 			System.out.println();
 		}
