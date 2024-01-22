@@ -8,6 +8,9 @@ public class TesterGameOfLife {
 
         String functionName = args[0];
         String fileName = args[1];
+        
+        // String functionName = "evolve";
+        // String fileName = "line.dat";
 
         switch (functionName) {
             case "print":
