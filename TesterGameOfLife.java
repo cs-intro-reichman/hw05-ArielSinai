@@ -1,13 +1,16 @@
 public class TesterGameOfLife {
 
     public static void main(String[] args) {
-        if (args.length < 2) {
-            System.out.println("Usage: java TesterGameOfLife <functionName> <filename>");
-            return;
-        }
+        // if (args.length < 2) {
+        //     System.out.println("Usage: java TesterGameOfLife <functionName> <filename>");
+        //     return;
+        // }
 
-        String functionName = args[0];
-        String fileName = args[1];
+        // String functionName = args[0];
+        // String fileName = args[1];
+        
+        String functionName = "evolve";
+        String fileName = "line.dat";
 
         switch (functionName) {
             case "print":
